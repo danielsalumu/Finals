@@ -4,45 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration Form-Altschool</title>
-    <style>
-        body {
-            font-family: Arial;
-            line-height: 1.6;
-            margin: 20px;
-        
-        }
-
-        header {
-            margin-bottom: 20px;
-        }
-
-        form {
-            max-width: 600px;
-            margin: 0 autp;
-        }
-
-        label {
-            display: block;
-            margin-bottom: 8px;
-        }
-
-        input, select {
-            width: 100%;
-            padding: 8px;
-            margin-bottom: 16px;
-            box-sizing: border-box;
-        }
-
-        button {
-            background-color: blue;
-            color: #fff;
-            padding: 10px 15px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-    </style>
-
+    <h1><u> Introductional content</u></h1>
+    
 <nav>
     <ul>
         <li><a href="about.html">About Me</a></li>
@@ -52,34 +15,113 @@
 </head>
 <body>
 
-<form>
-
     <main>
+        <u>
         <section id="registration-form">
             <h1>Registration Form</h1>
             <p></p>
         </section>
+        </u>
     </main>
 
-    <label for="firstName">First Name</label>
-    <input type="text" id="firstName" name="firstname" required>
+<img src="cropped-DSC_7716.jpg" alt="My own picture" align="right">
 
-    <label for="lastName">Last Name</label>
-    <input type="text" id="lastName" name="lastName" required>
+<form>
+    <table>
+        <tr>
+            <td>
+   <p>
+    <label for="firstName">First Name &ast;</label><br>
+    <input type="text" id="firstName" name="firstname" 
+    placeholder="Please enter your first name" required>
+    </p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+    <p>
+    <label for="lastName">Last Name &ast;</label><br>
+    <input type="text" id="lastName" name="lastName"
+    placeholder="Please enter your last name" required>
+    </p>
+            </td>
+        </tr>
 
-    <label for="gender">Gender</label>
+    <p>
+    <label for="gender">Gender &ast;</label><br>
     <select id="gender" name="gender" required>
         <option value="" disabled selected>Select gender</option>
         <option value="male">Male</option>
         <option value="female">Female</option>
     </select>
+    </p>
 
-    <label for="dob">Date of Birth (mm/dd/yyyy)</label>
+    <p>
+    <label for="dob">Date of Birth (mm/dd/yyyy) &ast;</label><br>
     <input type="text" id="dob" name="dob" placeholder="mm/dd/yyyy" required>
-
-    <label for="Email address">Email Address</label>
+    </p>
+    
+    <p>
+    <label for="Email address">Email Address &ast;</label><br>
     <input type="email" id="Email address" name="Email address" required>
+    </p>
 
+    <p>
+        <label for="Phone number"> Phone number &ast;</label><br>
+        <input type="number" id="Phone number">
+    </p>
+    <p>
+        <label for="Nationality"> Nationality &ast;</label><br>
+       <select name="Nationality" id="Nationality">
+        <option value="blank"></option>
+        <option value="Nigeria">Nigeria</option>
+        <option value="Democratic Republic of Congo"> Democratic Republic
+            of Congo
+        </option>
+        <option value="United States Of America"> United States of America</option>
+        <option value="Ghana">Ghana</option>
+        <option value="South Africa">South Africa</option>
+        <option value="Zambia">Zambia</option>
+        <option value="Tanzania"> Tanzania</option>
+        <option value="Zimbabwe"> Zimbabwe</option>
+        <option value="Egypt"> Egypt</option>
+       </select>
+    </p>
+
+    <p>
+        <label for="Religion"> Religion &ast;</label><br>
+       <select name="Religion" id="Religion">
+        <option value="blank"></option>
+        <option value="Christianity"> Christianity</option>
+        <option value="Muslim"> Muslim</option>
+        <option value="Mormon"> Mormon</option>
+        <option value="Jewish">Jewish</option>
+        </select>
+    </p>
+
+    <p>
+        <label for="Educational-Background"> Educational-Background &ast;</label><br>
+        <select name="Educational-Background" id="Educational-Background">
+            <option value="blank"></option>
+            <option value="Graduate"> Graduate</option>
+            <option value="Undergraduate"> Undergraduate</option>
+            <option value="Postgraduate"> Postgraduate</option>
+            <option value="Other"> Other</option>
+        </select>
+    </p>
+
+    <p>
+        <label for="Course of study"> Choose Course of study &ast;</label><br>
+        <select name="Course of study" id="Course of study">
+            <option value="blank"></option>
+            <option value="Frontend">Frontend</option>
+            <option value="Backend"> Backend</option>
+            <option value="Cloud"> Cloud</option>
+            <option value="Data-analysis"> Data-analysis</option>
+        </select>
+    </p>
+</table>
+  
 </form>
     
 </body>
